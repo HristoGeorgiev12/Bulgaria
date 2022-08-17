@@ -13,10 +13,12 @@ $(document).ready(function(){
 
     $('.slideshow-home').vegas({
         slides: [
-            { src: 'img/home-slide-1.jpg' },
-            { src: 'img/home-slide-2.jpg' },
-            { src: 'img/home-slide-3.jpg' },
+            // { src: 'img/home-slide-1.jpg' },
+            // { src: 'img/home-slide-2.jpg' },
+            // { src: 'img/home-slide-3.jpg' },
 
+            { src: 'img/my_img/site_bg/mountain-range-2021-08-28-03-29-30-utc.jpg' },
+            { src: 'img/my_img/site_bg/panoramic-mountain-landscape-2021-08-26-16-16-36-utc.jpg' },
         ],
 
         // Delay beetween slides in milliseconds.
@@ -29,8 +31,8 @@ $(document).ready(function(){
     $('.slideshow-about').vegas({
 
         slides: [
-            { src: 'img/monuments/arch-of-freedom-at-beklemeto-pass-bulgaria-2022-01-12-20-57-50-utc.jpg' },
-            { src: 'img/monuments/panoramic-view-of-the-liberty-monument-balkans-b-2021-08-30-12-45-22-utc.jpg' },
+            { src: 'img/my_img/monuments/arch-of-freedom-at-beklemeto-pass-bulgaria-2022-01-12-20-57-50-utc.jpg' },
+            { src: 'img/my_img/monuments/panoramic-view-of-the-liberty-monument-balkans-b-2021-08-30-12-45-22-utc.jpg' },
             // { src: 'img/home-slide-3.jpg' },
 
         ],
@@ -51,7 +53,7 @@ $(document).ready(function(){
 
     $('.slideshow-services').vegas({
         slides: [
-            { src: 'img/food/vegetable-bulgarian-shopska-salad-with-bulgaria-fl-2021-08-29-17-13-49-utc.jpg' },
+            { src: 'img/my_img/food/vegetable-bulgarian-shopska-salad-with-bulgaria-fl-2021-08-29-17-13-49-utc.jpg' },
             // { src: 'img/slide-2.jpg' },
             // { src: 'img/slide-3.jpg' },
         ],
