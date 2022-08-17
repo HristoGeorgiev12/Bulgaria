@@ -19,6 +19,7 @@ $(document).ready(function(){
 
             { src: 'img/my_img/site_bg/mountain-range-2021-08-28-03-29-30-utc.jpg' },
             { src: 'img/my_img/site_bg/panoramic-mountain-landscape-2021-08-26-16-16-36-utc.jpg' },
+            
         ],
 
         // Delay beetween slides in milliseconds.
