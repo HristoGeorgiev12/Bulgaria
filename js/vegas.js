@@ -17,8 +17,11 @@ $(document).ready(function(){
             // { src: 'img/home-slide-2.jpg' },
             // { src: 'img/home-slide-3.jpg' },
 
-            { src: 'img/my_img/site_bg/mountain-range-2021-08-28-03-29-30-utc.jpg' },
-            { src: 'img/my_img/site_bg/panoramic-mountain-landscape-2021-08-26-16-16-36-utc.jpg' },
+            { src: 'img/my_img/views/views_1.jpg' },
+            { src: 'img/my_img/views/views_2.jpg' },
+            { src: 'img/my_img/views/views_3.jpg' },
+            { src: 'img/my_img/views/views_4.jpg' },
+            { src: 'img/my_img/views/views_5.jpg' },
             
         ],
 
@@ -32,8 +35,8 @@ $(document).ready(function(){
     $('.slideshow-about').vegas({
 
         slides: [
-            { src: 'img/my_img/monuments/arch-of-freedom-at-beklemeto-pass-bulgaria-2022-01-12-20-57-50-utc.jpg' },
-            { src: 'img/my_img/monuments/panoramic-view-of-the-liberty-monument-balkans-b-2021-08-30-12-45-22-utc.jpg' },
+            { src: 'img/my_img/monuments/monuments_1.jpg' },
+            { src: 'img/my_img/monuments/monuments_2.jpg' },
             // { src: 'img/home-slide-3.jpg' },
 
         ],
