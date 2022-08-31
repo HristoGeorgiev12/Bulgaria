@@ -1,0 +1,11 @@
+#menu {
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    z-index: 999;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    color: black;
+}
