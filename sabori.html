@@ -253,7 +253,6 @@
 		<div id="menu" class="btn-group" role="group" aria-label="Button group with nested dropdown">
 		  <button type="button" class="btn btn-secondary" onclick="location.href='index.html'">За нас</button>
 		  <button type="button" class="btn btn-secondary" onclick="location.href='sabori.html'">Събори</button>
-		  <!-- <button type="button" class="btn btn-secondary">2</button> -->
 
 		  <div class="btn-group" role="group">
 		    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -266,6 +265,8 @@
 		    </div>
 		  </div>
 		</div>
+
+
 
 		<!-- +++ List of social media on the bottom right +++ -->
 		<div id="social-nav">
@@ -393,12 +394,12 @@
 		<script src="js/main-fullpage.js"></script>
 
 
-		<script src="data/monuments_data.js"></script>
+		<script src="data/sabori_data.js"></script>
 
 		<script>
-			function generator(monuments) {
+			function generator(data) {
 				let html = '';
-				monuments.forEach( (el) =>  {
+				data.forEach( (el) =>  {
 					html += htmlTpl(el);
 				});
 
@@ -409,9 +410,9 @@
 						return  `
 	                <figure class="col-xs-12 col-sm-3 col-lg-3 p-10" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 
-	                    <a href="${el.img_path}" class="gallery-link small" data-image="${el.img_path}" itemprop="contentUrl" data-size="1920x1280">
+	                    <a href="${el.img}" class="gallery-link small" data-image="${el.img}" itemprop="contentUrl" data-size="1920x1280">
 
-	                        <img src="${el.img_path}" itemprop="thumbnail" alt="This is my work" class="img-responsive gallery-img small-square" />
+	                        <img src="${el.img}" itemprop="thumbnail" alt="This is my work" class="img-responsive gallery-img small-square" />
 
 	                    </a>
 
@@ -419,7 +420,7 @@
 
 	                        <div class="photo-details">
 	                        
-	                            <h4>${el.title}<small>${el.title_second}</small></h4>
+	                            <h4>${el.title}<small>${el.date}</small></h4>
 
 	                            <p>${el.info}</p>
 
@@ -431,8 +432,8 @@
 				`;
 
 			} 
-
-			generator(monuments);
+			
+			generator(sabori);
 
 		</script>
 
