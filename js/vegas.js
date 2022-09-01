@@ -35,8 +35,8 @@ $(document).ready(function(){
     $('.slideshow-about').vegas({
 
         slides: [
-            { src: 'img/my_img/monuments/monuments_1.jpg' },
-            { src: 'img/my_img/monuments/monuments_2.jpg' },
+            { src: 'img/my_img/monuments/shipka/shipka_1.jpg' },
+            { src: 'img/my_img/monuments/buzludza/buzludza_1.jpg' },
             // { src: 'img/home-slide-3.jpg' },
 
         ],
